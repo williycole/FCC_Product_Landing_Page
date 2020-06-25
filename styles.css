@@ -41,11 +41,9 @@ ul {
     transform: rotate(-5deg)
                skew(-5deg);
   }
-  
   li {
     float: left;
   }
-  
   li a {
     display: block;
     color: white;
@@ -56,9 +54,20 @@ ul {
   li a:hover {
     background-color: rgb(197, 67, 67);
   }
+  .align-center-p-larger {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
+  #services {
+    padding-top: 50px;
+  }
+  #youtube {
+    padding-top: 100px;
+  }
   h1 {
       text-decoration: underline;
-      color:  rgb(129, 65, 65);
+      color: rgb(129, 65, 65);
   }
   h2 {
       text-align: left;
@@ -68,5 +77,24 @@ ul {
       text-align: left;
       color: rgb(95, 45, 45);
   }
-
- 
+.align-center {
+    text-align: center;
+}
+.align-center-p {
+    text-align: center;
+    font-size: 14px;
+}
+#pricing {
+    display: inline-flex;
+    padding-top: 150px;
+  }
+.price-boxes {
+border-style: solid;
+color:rgb(95, 45, 45);
+border-radius: 25px;
+width: 50%;
+}
+#contact-us {
+padding-top: 80px;
+padding-bottom: 80px;
+}
