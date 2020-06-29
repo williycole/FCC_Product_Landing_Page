@@ -9,26 +9,25 @@
     <link rel="stylesheet" href="styles.css">
     <title>Hanz and Franz Personal Training</title>
 </head>
-</head>
 <body>
 <header id="header">      
 <nav id="nav-bar"> 
    <a href="/" class="logo" id="nav-logo">
-                <img src="https://cdn.pixabay.com/photo/2017/01/31/08/48/barbell-2023339_1280.png"
+                <img src="https://cdn.pixabay.com/photo/2017/01/31/08/48/barbell-2023339_1280.png" alt="barbell picture"
                 id="header-img">
          </a>   
-    <section>
+    <div>
         <ul class="menu">
             <li><a href="#services" class="nav-link">Services</a></li>
             <li><a href="#contact-us" class="nav-link">Contact</a></li>
             <li><a href="#pricing" class="nav-link">pricing</a></li>
             
         </ul>
-    </section>
+    </div>
 </nav>
 </header>
 <div id="site-body">
-    <h1 class=>Hanz and Franz Personal Training</h1>
+    <h1>Hanz and Franz Personal Training</h1>
       <div id="services">
           <h2>Best Exercise Selection and Coaching</h2>
               <p>Ya. Ya, girly-man. Hear me now and believe me later – but don’t think about it ever,
@@ -42,14 +41,11 @@
            <div id="youtube-title">
               Witness our great pump little girly-man!
            </div>    
-               <iframe  
-                    class="youtube"
-                    id="video" 
-                    width="560" 
-                    height="315" 
+               <iframe   
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen
                     src="https://www.youtube.com/embed/7Mk1nykjnYA" 
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
+                    >
                </iframe>
       </div>
      <div id="pricing" class="flex-container">
@@ -74,9 +70,8 @@
             <h2 class="align-center">YA YA CONTACT US LITTLE GIRLY MAN!</h2>
             <form id="form" action="https://www.freecodecamp.com/email-submit">
              <input
-                name="name"
-                id="name"
-                type="name"
+                type="text"
+                id="your-name"
                 placeholder="Cousin Arnold"
                 required
               />

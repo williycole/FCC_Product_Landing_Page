@@ -156,6 +156,13 @@ li a:hover {
     color: rgb(129, 65, 65);
   }
 }
+/*Desktop iframe*/
+iframe {
+  padding-top: 100px;
+  width:560px; 
+  height:315px;   
+  border: 0px;               
+}
 /*Mobile iframe*/
 @media (max-width: 568px){
   iframe {
@@ -168,7 +175,7 @@ li a:hover {
 }
 @media (min-width: 768px){
   #youtube {
-  padding-top: 100px;
+  
   }
 }
 /*Mobile align-center*/
