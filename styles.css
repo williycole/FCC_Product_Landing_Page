@@ -108,8 +108,7 @@ h2 {
   text-align: left;
   color: rgb(197, 67, 67);
   font-size: 20px;
-  flex-wrap: wrap;
-  display: flex;
+  display: block;
   margin-right: auto auto;
 }
 /*Desktop h2*/
@@ -125,8 +124,7 @@ p {
   font-size: 15px;
   text-align: left;
   color: rgb(95, 45, 45);
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
 }
 /*Desktop p*/
 @media (min-width: 768px){
@@ -172,11 +170,7 @@ iframe {
 #services {
   padding-top: 50px;
   margin-left: 25px;
-}
-@media (min-width: 768px){
-  #youtube {
-  
-  }
+  text-align: center;
 }
 /*Mobile align-center*/
 .align-center {
