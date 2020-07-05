@@ -21,30 +21,33 @@ img {
 /*mobile first nav-bar*/
 #nav-bar{
   position: fixed;
-  background-color: rgb(129, 65, 65);    
-  font-family: 'Exo 2', sans-serif;
+  background-color: rgba(221, 62, 62, 0.945);
+  font-family: 'Courier New', Courier, monospace;
   padding: 1em;
   width: 100%;
   height: 8%;
+  font-weight: 700;
 }
 /*Desktop nav-bar*/
 @media (min-width: 768px){
   #nav-bar{
   position: fixed;
-  background-color: rgb(129, 65, 65);    
-  font-family: 'Exo 2', sans-serif;
+  background-color: rgba(221, 62, 62, 0.945);    
+  font-family: 'Courier New', Courier, monospace;
   padding: 1em;
   width: 100%;
   height: 10%;
+  font-weight: 700;
   }
 }
 body {
   display: grid;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color:rgba(253, 231, 182, 0.795);
+  background-color:rgba(216, 207, 187, 0.747);
   background-position: center center;
   text-align: center;
+  color: black;
 }
 #site-body{
   padding-top: 100px;
@@ -66,7 +69,7 @@ li {
 /*mobile first li a*/
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 14px 0px 0px;
   text-decoration: none;
@@ -90,7 +93,7 @@ h1 {
   font-size: 27px;
   padding-top: 40px;
   text-decoration: underline;
-  color: rgb(129, 65, 65);
+  color: black;
   text-align: left;
 }
 /*Desktop h1 */
@@ -98,40 +101,44 @@ h1 {
   h1 {
     padding-top: 40px;
     text-decoration: underline;
-    color: rgb(129, 65, 65);
-    font-size: 35px;
+    color: black;
+    font-size: 45px;
     text-align: center;
   }
 }
 /*Mobile first h2*/
 h2 {
   text-align: left;
-  color: rgb(197, 67, 67);
+  color: black;
   font-size: 20px;
   display: block;
   margin-right: auto auto;
+  font-family: 'Courier New', Courier, monospace;
 }
 /*Desktop h2*/
 @media (min-width: 768px){
   h2 {
     text-align: center;
-    color: rgb(197, 67, 67);
+    color: black;
     font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
   }
 }
 /*Mobile p*/
 p {
   font-size: 15px;
   text-align: left;
-  color: rgb(95, 45, 45);
+  color: black;
   display: block;
+  font-family: 'Courier New', Courier, monospace;
 }
 /*Desktop p*/
 @media (min-width: 768px){
   p {
     text-align: center;
-    color: rgb(95, 45, 45);
+    color: black;
     font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
   }
 }
 li a:hover {
@@ -142,8 +149,9 @@ li a:hover {
   text-align: left;
   font-size: 19px;
   text-decoration: underline;
-  color: rgb(129, 65, 65);
+  color: black;
   margin-left: 28px;
+  font-weight: 700;
 }
 /*Desktop youtube-title*/
 @media (min-width: 768px){
@@ -151,7 +159,10 @@ li a:hover {
     text-align: center;
     font-size: 25px;
     text-decoration: underline;
-    color: rgb(129, 65, 65);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 100px;
+    font-weight: 700;
   }
 }
 /*Desktop iframe*/
@@ -170,6 +181,7 @@ iframe {
 #services {
   padding-top: 50px;
   text-align: center;
+  padding-bottom: 40px;
 }
 /*Mobile align-center*/
 .align-center {
@@ -205,7 +217,9 @@ border-style: solid;
 color: black;
 border-radius: 25px;
 width: 70%;
-background-color: rgb(129, 65, 65); 
+font-family: 'Courier New', Courier, monospace;
+font-weight: 700;
+background-color: rgba(221, 62, 62, 0.945);
 }
 @media (min-width: 768px) {
 .price-boxes {
@@ -216,6 +230,10 @@ background-color: rgb(129, 65, 65);
   text-align: center;
   font-size: 14px;
   color: black;
+}
+h3 {
+text-decoration: underline;
+background-color:rgba(216, 207, 187, 0.747);
 }
 #contact-us {
 padding-top: 80px;
@@ -247,8 +265,9 @@ form{
 }
 #submit {
   padding: 1em;
-  color:rgba(80, 47, 47, 0.911);
-  background-color:rgb(197, 67, 67);
-  font-weight: 500;
+  color: black;
+  background-color: rgba(221, 62, 62, 0.945);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
   align-self: center;
 }
