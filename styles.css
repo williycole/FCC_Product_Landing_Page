@@ -271,3 +271,7 @@ form{
   font-weight: 700;
   align-self: center;
 }
+footer{
+  background-color: rgba(221, 62, 62, 0.945);
+  font-weight: 700;
+}
