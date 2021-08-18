@@ -1,2 +1,2 @@
 # Product_Landing_Page
-This repository contains all work done for my product landing page project for freecodecamp's Responsive Web Design Certification.
+<-WIP: Redoing in React & Tailwind-> This repository contains all work done for my Product Landing Page project for freecodecamp's Responsive Web Design Certification.
